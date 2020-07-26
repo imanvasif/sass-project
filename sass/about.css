@@ -1,0 +1,215 @@
+body {
+  background-color: #f0f0f0;
+}
+
+body .blog-cont {
+  width: 100%;
+  background-color: #f0f0f0;
+}
+
+body .blog-cont .blog-menu {
+  width: 25%;
+  background-color: #f0f0f0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+body .blog-cont .blog-menu .blog-h2 {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: arial;
+}
+
+body .blog-cont .blog-menu .blog-menu-ul {
+  padding: 10px;
+}
+
+body .blog-cont .blog-menu .blog-menu-ul .blog-menu-li {
+  list-style: none;
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 35px;
+  font-family: arial;
+}
+
+body .blog-cont .blog-menu .blog-menu-ul .blog-menu-li .blog-a-1 {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+body .blog-cont .blog-menu .blog-menu-ul .blog-menu-li .blog-active {
+  text-decoration: underline;
+}
+
+body .blog-recent-all {
+  width: 75%;
+  background-color: #f0f0f0;
+  margin-left: 25%;
+  font-family: sans-serif;
+  margin-right: 0;
+}
+
+body .blog-recent-all .about-div {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .blog-recent-all .about-div .about-slide {
+  width: 50%;
+  height: 400px;
+  background-color: #b4b4b4;
+}
+
+body .blog-recent-all .about-div .about-text {
+  width: 50%;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+body .blog-recent-all .about-div .about-text .blog-h3 {
+  font-weight: 900;
+  font-size: 18px;
+  padding-bottom: 25px;
+  padding-top: 0px;
+  font-family: arial;
+}
+
+body .blog-recent-all .about-div .about-text .about-lorem {
+  color: grey;
+}
+
+body .page-2 {
+  width: 75%;
+  margin-left: 25%;
+  background-color: #f0f0f0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
+body .page-2 .h2-2 {
+  text-align: left;
+  font-weight: 650;
+  font-size: 25px;
+}
+
+body .page-2 .div-service {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  align-item: center;
+  margin-bottom: 25px;
+}
+
+body .page-2 .div-service .services {
+  width: 50%;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-delay: 0;
+          animation-delay: 0;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-fill-mode: forward;
+          animation-fill-mode: forward;
+}
+
+body .page-2 .div-service .services .service-icon {
+  width: 25%;
+  color: green;
+  font-size: 20px;
+}
+
+body .page-2 .div-service .services .service-icon .circle {
+  max-width: 100px;
+  height: 100px;
+  background-color: gray;
+  border: none;
+  border-radius: 50%;
+  position: relative;
+}
+
+body .page-2 .div-service .services .service-icon .circle .an-1 {
+  color: cornflowerblue;
+  font-size: 30px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+          transform: translate3d(-50%, -50%, 0);
+}
+
+body .page-2 .div-service .services .service-text {
+  width: 75%;
+}
+
+body .page-2 .div-service .services .service-text .h4 {
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin: 10px;
+  font-size: 18px;
+}
+
+body .page-2 .div-service .services .service-text .h4-text {
+  text-align: left;
+}
+
+body .blog-page-22 {
+  width: 75%;
+  margin-left: 25%;
+  background-color: #f0f0f0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
+body .blog-page-22 .blog-half {
+  width: 40%;
+  padding-top: 150px;
+}
+
+body .blog-page-22 .blog-half .blog-getintouch {
+  font-size: 22px;
+  color: cornflowerblue;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body .blog-page-22 .blog-half .blog-ipsum {
+  color: grey;
+  margin-top: 30px;
+}
+
+body .blog-page-22 .blog-half .blog-btn-end {
+  background-color: cornflowerblue;
+  padding: 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: white;
+  border-radius: 5%;
+  cursor: pointer;
+}
+/*# sourceMappingURL=about.css.map */

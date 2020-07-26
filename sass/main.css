@@ -1,0 +1,317 @@
+body {
+  background-color: #584e4e;
+}
+
+body .container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .container .menu {
+  width: 25%;
+  background-color: #f0f0f0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+body .container .menu .h2 {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: arial;
+}
+
+body .container .menu .menu-ul {
+  padding: 10px;
+}
+
+body .container .menu .menu-ul .menu-li {
+  list-style: none;
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 35px;
+  font-family: arial;
+}
+
+body .container .menu .menu-ul .menu-li .a-1 {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+body .container .menu .menu-ul .menu-li .active {
+  text-decoration: underline;
+}
+
+body .container .menu .social-icon {
+  color: black;
+}
+
+body .container .page {
+  width: 75%;
+  height: 100vh;
+  background-color: black;
+  padding: 50px;
+  padding-top: 0;
+  margin-left: 25%;
+  font-family: Roboto, sans-serif;
+}
+
+body .container .page .marginal {
+  margin: 30px auto;
+}
+
+body .container .page .marginal .pp {
+  text-align: center;
+  line-height: 40px;
+  margin: 0 auto;
+  display: block;
+}
+
+body .container .page .marginal .pp .p1 {
+  font-size: 40px;
+  color: lightgrey;
+  margin: 25px auto;
+}
+
+body .container .page .marginal .pp .p2 {
+  font-size: 30px;
+  color: lightgrey;
+  margin: 25px auto;
+}
+
+body .container .page .marginal .pp .p3 {
+  font-size: 20px;
+  color: lightgrey;
+  margin: 25px auto;
+}
+
+body .container .page .marginal .btn2 {
+  text-align: center;
+}
+
+body .container .page .marginal .btn2 .btn2-1 {
+  padding: 20px;
+  letter-spacing: 3px;
+  background-color: dodgerblue;
+  color: white;
+  cursor: pointer;
+}
+
+body .container .page .marginal .btn2 .btn2-2 {
+  padding: 20px;
+  letter-spacing: 3px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+body .page-2 {
+  width: 75%;
+  margin-left: 25%;
+  background-color: #f0f0f0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
+body .page-2 .h2-2 {
+  text-align: left;
+  font-weight: 650;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+body .page-2 .div-service {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  align-item: center;
+}
+
+body .page-2 .div-service .services {
+  width: 50%;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-delay: 0;
+          animation-delay: 0;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-fill-mode: forward;
+          animation-fill-mode: forward;
+}
+
+body .page-2 .div-service .services .service-icon {
+  min-width: 110px;
+  color: green;
+  font-size: 20px;
+}
+
+body .page-2 .div-service .services .service-icon .circle {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  border: none;
+  border-radius: 50%;
+  position: relative;
+}
+
+body .page-2 .div-service .services .service-icon .circle .an-1 {
+  color: cornflowerblue;
+  font-size: 30px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+          transform: translate3d(-50%, -50%, 0);
+}
+
+body .page-2 .div-service .services .service-text {
+  width: 75%;
+}
+
+body .page-2 .div-service .services .service-text .h4 {
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin: 15px;
+}
+
+body .page-2 .div-service .services .service-text .h4-text {
+  text-align: left;
+}
+
+body .recent-all {
+  width: 75%;
+  background-color: #f0f0f0;
+  margin-left: 25%;
+  font-family: Roboto, sans-serif;
+}
+
+body .recent-all .h3 {
+  font-weight: 900;
+  font-size: 18px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+body .recent-all .container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .recent-all .container .recent {
+  width: 23%;
+  margin-top: 20px;
+  background-color: #f0f0f0;
+}
+
+body .recent-all .container .recent .blog1 {
+  width: 100%;
+  height: 200px;
+  background-color: gray;
+}
+
+body .recent-all .container .recent .blog2 {
+  width: 100%;
+  height: 200px;
+  background-color: #a38247;
+}
+
+body .recent-all .container .recent .blog3 {
+  width: 100%;
+  height: 200px;
+  background-color: darkslategray;
+}
+
+body .recent-all .container .recent .blog4 {
+  width: 100%;
+  height: 200px;
+  background-color: cornflowerblue;
+}
+
+body .recent-all .container .recent .blog-text {
+  padding: 10px;
+  background-color: white;
+}
+
+body .recent-all .container .recent .blog-text .blog-p {
+  margin-top: 40px;
+  margin-bottom: 5px;
+  color: grey;
+}
+
+body .recent-all .container .recent .blog-text .rm-btn {
+  padding: 10px;
+  padding-left: 0;
+  background-color: white;
+  border: none;
+  color: black;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+body .page-22 {
+  width: 75%;
+  margin-left: 25%;
+  margin-top: 150px;
+  background-color: #f0f0f0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
+body .page-22 .half {
+  width: 40%;
+}
+
+body .page-22 .half .getintouch {
+  font-size: 22px;
+  color: cornflowerblue;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+body .page-22 .half .ipsum {
+  color: grey;
+}
+
+body .page-22 .half .btn-end {
+  background-color: cornflowerblue;
+  padding: 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: white;
+  border-radius: 5%;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */

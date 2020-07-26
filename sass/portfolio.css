@@ -1,0 +1,146 @@
+body {
+  background-color: #f0f0f0;
+}
+
+body .blog-cont {
+  width: 100%;
+  background-color: #f0f0f0;
+}
+
+body .blog-cont .blog-menu {
+  width: 25%;
+  background-color: #f0f0f0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+body .blog-cont .blog-menu .blog-h2 {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: arial;
+}
+
+body .blog-cont .blog-menu .blog-menu-ul {
+  padding: 10px;
+}
+
+body .blog-cont .blog-menu .blog-menu-ul .blog-menu-li {
+  list-style: none;
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 35px;
+  font-family: arial;
+}
+
+body .blog-cont .blog-menu .blog-menu-ul .blog-menu-li .blog-a-1 {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+body .blog-cont .blog-menu .blog-menu-ul .blog-menu-li .blog-active {
+  text-decoration: underline;
+}
+
+body .blog-recent-all {
+  width: 75%;
+  background-color: #f0f0f0;
+  margin-left: 25%;
+  font-family: Roboto, sans-serif;
+  margin-right: 0;
+}
+
+body .blog-recent-all .blog-h3 {
+  font-weight: 900;
+  font-size: 18px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: arial;
+}
+
+body .blog-recent-all .port-components {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .blog-recent-all .port-components .port-comp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+body .blog-recent-all .port-components .port-comp .port-items {
+  width: 23%;
+  height: 250px;
+  background-color: gray;
+  cursor: pointer;
+}
+
+body .blog-recent-all .port-components .port-comp .port-items:hover .port-overlay {
+  opacity: 1;
+  text-align: center;
+  margin: 107px 0px;
+}
+
+body .blog-recent-all .port-components .port-comp .port-items .port-overlay {
+  opacity: 0;
+}
+
+body .blog-recent-all .port-components .port-comp .port-items .port-overlay .over-h1 {
+  font-size: 20px;
+}
+
+body .blog-page-22 {
+  width: 75%;
+  margin-left: 25%;
+  background-color: #f0f0f0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
+body .blog-page-22 .blog-half {
+  width: 40%;
+  padding-top: 150px;
+}
+
+body .blog-page-22 .blog-half .blog-getintouch {
+  font-size: 22px;
+  color: cornflowerblue;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body .blog-page-22 .blog-half .blog-ipsum {
+  color: grey;
+  margin-top: 30px;
+}
+
+body .blog-page-22 .blog-half .blog-btn-end {
+  background-color: cornflowerblue;
+  padding: 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: white;
+  border-radius: 5%;
+  cursor: pointer;
+}
+/*# sourceMappingURL=portfolio.css.map */

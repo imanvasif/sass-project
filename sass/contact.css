@@ -1,0 +1,168 @@
+body {
+  background-color: #f0f0f0;
+}
+
+body p {
+  font-family: Source Sans Pro sans-serif;
+}
+
+body .blog-cont {
+  width: 100%;
+}
+
+body .blog-cont .blog-menu {
+  width: 25%;
+  background-color: #f0f0f0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+body .blog-cont .blog-menu .blog-h2 {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+body .blog-cont .blog-menu .blog-menu-ul {
+  padding: 10px;
+}
+
+body .blog-cont .blog-menu .blog-menu-ul .blog-menu-li {
+  list-style: none;
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 35px;
+  font-family: arial;
+}
+
+body .blog-cont .blog-menu .blog-menu-ul .blog-menu-li .blog-a-1 {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+body .blog-cont .blog-menu .blog-menu-ul .blog-menu-li .blog-active {
+  text-decoration: underline;
+}
+
+body .blog-cont .contact-size {
+  width: 75%;
+  margin-left: 25%;
+  background-color: white;
+  font-family: Source Sans Pro, sans-serif;
+}
+
+body .blog-cont .contact-size .contact-flex {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+body .blog-cont .contact-size .contact-flex .contact-item {
+  margin-left: 15px;
+  min-width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .blog-cont .contact-size .contact-flex .contact-item .contact-icon {
+  min-width: 80px;
+  height: 80px;
+  margin-right: 20px;
+  border-radius: 50%;
+  position: relative;
+  background-color: #f0f0f0;
+}
+
+body .blog-cont .contact-size .contact-flex .contact-item .contact-icon .c-i-s {
+  font-size: 25px;
+  color: grey;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+          transform: translate3d(-50%, -50%, 0);
+  color: #00c2bf;
+}
+
+body .blog-cont .contact-size .contact-flex .contact-item .contact-text {
+  color: gray;
+  width: 150px;
+}
+
+body .blog-cont .contact-size .contact-flex .contact-item .contact-text .ptext {
+  padding: 20px 0px;
+  padding-top: 30px;
+}
+
+body .blog-cont .contact-size1 {
+  width: 100%;
+  background-color: #f0f0f0;
+}
+
+body .blog-cont .contact-size1 .contact-form {
+  width: 100%;
+}
+
+body .blog-cont .contact-size1 .contact-form .form-p {
+  font-family: arial;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 25px;
+  padding-top: 40px;
+  font-size: 25px;
+}
+
+body .blog-cont .contact-size1 .contact-form .form-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .blog-cont .contact-size1 .contact-form .form-flex .form-size {
+  width: 50%;
+}
+
+body .blog-cont .contact-size1 .contact-form .form-flex .form-size .form-input {
+  width: 80%;
+  margin: 20px;
+  margin-right: 50px;
+  margin-bottom: 0;
+  padding: 15px;
+  background-color: #f0f0f0;
+  border: 1px solid gray;
+}
+
+body .blog-cont .contact-size1 .contact-form .c-area {
+  width: 50%;
+}
+
+body .blog-cont .contact-size1 .contact-form .c-area .c-textarea {
+  width: 90%;
+  margin-top: 20px;
+  height: 110px;
+  border: 1px solid gray;
+  background-color: #f0f0f0;
+}
+
+body .blog-cont .contact-size1 .contact-form .c-area .contact-btn {
+  padding: 15px 40px;
+  background-color: dodgerblue;
+  letter-spacing: 2px;
+  margin-top: 14px;
+  color: white;
+  border-radius: 10%;
+  cursor: pointer;
+}
+/*# sourceMappingURL=contact.css.map */
